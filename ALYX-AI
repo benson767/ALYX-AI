@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALYX AI - The Future of AI Transactions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #ffffff;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 20px 20px;
+            background: radial-gradient(circle, rgba(0, 238, 255, 0.5), rgba(0, 0, 0, 0.8)), url('https://www.transparenttextures.com/patterns/hexellence.png');
+            background-blend-mode: overlay;
+            position: relative;
+        }
+        header p {
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #cccccc;
+        }
+        .logo {
+            font-size: 60px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+            background: linear-gradient(135deg, #00eaff, #007bff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 15px rgba(0, 238, 255, 0.6), 0 0 30px rgba(0, 238, 255, 0.6);
+        }
+        .floating-glow::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(0, 238, 255, 0.4), transparent);
+            border-radius: 50%;
+            z-index: -1;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #00eaff;
+        }
+        section {
+            padding: 100px 40px;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+        section h2 {
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        p, li {
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #0a0a0a;
+        }
+        .button {
+            display: inline-block;
+            background-color: #00eaff;
+            color: #000;
+            padding: 12px 24px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .card {
+            background: linear-gradient(135deg, rgba(0, 238, 255, 0.1), rgba(0, 0, 0, 0.8)); /* Gradiente elegante e soft */
+            border: 1px solid #ffffff; /* Contorno bianco elegante */
+            border-radius: 15px;
+            padding: 30px 40px;
+            margin: 20px 0;
+            box-shadow: 0 0 40px rgba(0, 238, 255, 0.2); /* Ombra morbida ma definita */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animazione per maggiore interazione */
+        }
+        .card:hover {
+            transform: translateY(-10px); /* Sollevamento elegante */
+            box-shadow: 0 0 50px rgba(0, 238, 255, 0.4); /* Ombra più forte per effetto professionale */
+        }
+        .card h3 {
+            font-size: 28px; /* Font del titolo più elegante */
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        .card p {
+            font-size: 18px; /* Testo sottotitolo leggermente più grande per maggiore leggibilità */
+            font-weight: 400;
+            color: #cccccc;
+        }
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .grid-item {
+            flex: 1 1 300px;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: #0a0a0a;
+        }
+        .footer-link {
+            color: #00eaff;
+            text-decoration: none;
+        }
+        .footer-link:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ALYX AI</div>
+        <p>Empowering the Next Generation of Decentralized AI Solutions. Secure, Scalable, and Built for the Future.</p>
+        <div class="floating-glow"></div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>ALYX AI is a cutting-edge platform offering secure and scalable AI solutions for the future. With our decentralized approach, we aim to transform the world of artificial intelligence and empower anyone to leverage advanced technologies to improve their lives and businesses.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="grid-container">
+            <div class="grid-item card">
+                <h3>Decentralized AI Solutions</h3>
+                <p>We provide tailored solutions that leverage the power of decentralized artificial intelligence to solve complex problems and enhance business processes.</p>
+            </div>
+            <div class="grid-item card">
+                <h3>Advanced Automation</h3>
+                <p>We implement automation systems that optimize efficiency and reduce costs, using artificial intelligence to make smart decisions in real-time.</p>
+            </div>
+            <div class="grid-item card">
+                <h3>Consulting and Implementation</h3>
+                <p>We offer personalized consulting to help you integrate artificial intelligence into your systems, ensuring maximum value and performance from the technologies adopted.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For more information about our services or specific inquiries, feel free to get in touch with us. We would be happy to assist you!</p>
+        <a href="mailto:info@alyxai.com" class="button">Email Us</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ALYX AI. All rights reserved.</p>
+        <p><a href="https://www.linkedin.com/company/alyxai" target="_blank" class="footer-link">LinkedIn</a> | <a href="https://twitter.com/alyxai" target="_blank" class="footer-link">Twitter</a></p>
+    </footer>
+
+</body>
+</html>
